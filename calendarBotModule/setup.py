@@ -9,7 +9,7 @@ install_requires = (
 )
 
 setup(name='calendarBot',
-      version='0.1',
+      version='0.1.1',
       description='Mattermost calendar Bot',
       long_description=open('README.md').read(),
       url='https://github.com/mharrend',
@@ -18,6 +18,7 @@ setup(name='calendarBot',
       license='MIT',
       keywords='chat bot calendar mattermost',
       platforms=['Any'],
+      zip_safe = False,
       packages = find_packages(),
       install_requires=install_requires,
       classifiers=[
