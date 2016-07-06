@@ -1,0 +1,3 @@
+[submodule "calendarBotMattermostPlugin"]
+	path = calendarBotMattermostPlugin
+	url = https://github.com/mharrend/matterbot-plugins-server.git

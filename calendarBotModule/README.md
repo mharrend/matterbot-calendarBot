@@ -35,11 +35,3 @@ The configuration is done in the calendarBotSettings.py file:
   * DatabaseName: Name of local SQLite database
   * CheckInterval: Amount of seconds between checks for upcoming events
   * TimespanToCheck: Definition of minute interval which is used for checking of upcoming events
-
-## Code structure
-* calendarBotModule
-  * Module containing the shared python code.
-* calendarBotProgram
-  * Python program which is used to check for upcoming events
-* calendarBotMattermostPlugin
-  * Plugin used to create and display events manually in Mattermost 
