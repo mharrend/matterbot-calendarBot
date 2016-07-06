@@ -9,7 +9,7 @@ install_requires = (
 )
 
 setup(name='calendarBot',
-      version='0.1.1',
+      version='0.1.2',
       description='Mattermost calendar Bot',
       long_description=open('README.md').read(),
       url='https://github.com/mharrend',
