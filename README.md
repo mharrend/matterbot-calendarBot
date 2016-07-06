@@ -14,7 +14,7 @@ This bot is making use of
   * If the Mattermost group cannot be found, a default channel is used.
   * A global setting exists to define in which time in advance an event is posted in Mattermost.
   * By default events are deleted for now after they have been posted to Mattermost. In the future, most likely an option will allow to just mask these events.
-* Furthermore, a plugin for the Mattermost_bot bot exists, which allows to create events in Mattermost itself.
+* Furthermore, a plugin for the Mattermost_bot bot exists, which allows to create events in Mattermost itself. Have a look at https://github.com/mharrend/matterbot-plugins-server/blob/master/calendar.py
   * Using this plugin events and subcalendars can be created.
   * The events and calendars are stored in the online account and also saved in a local SQLite database.
   * The plugin also allows to show the agenda of today using all subcalendars or specifying only one subcalendar.
