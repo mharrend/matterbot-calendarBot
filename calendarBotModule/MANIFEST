@@ -4,3 +4,4 @@ calendarBot/__init__.py
 calendarBot/calendarApi.py
 calendarBot/calendarBotSettings.py
 calendarBot/calendarTimer.py
+README.md
