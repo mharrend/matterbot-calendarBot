@@ -6,3 +6,6 @@ The script depends on the calendarBot pip package.
 
 ## Settings
 Settings have to be defined in the calendarBotSettings.py file of the calendarBot pip package.
+
+## Installation instructions
+Installation instructions are given in INSTALL.MD
