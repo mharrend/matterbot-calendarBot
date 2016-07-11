@@ -25,7 +25,7 @@ def checkCalendarForUpcomingEvents():
     successful, res = showAgenda('', nowDate.strftime("%d.%m.%Y %H:%M"), laterDate.strftime("%d.%m.%Y %H:%M"), True)
     if successful:
         for item in res:
-            eventContent = 'Upcoming event: {0}\n Details: {1}\n Time: {2} (KIT time)\n Location: {3}\n\n'.format(item.subject, html2text.html2text(item.body),item.start.strftime("%H:%M")), item.location)
+						eventContent = '### **{0}**\nTime: {1} - {2} (KIT time)\nDetails: {3}\nLocation: {4}\n\n'.format(item.subject,item.start.astimezone(EWSTimeZone.timezone('Europe/Copenhagen')).strftime('%H:%M'),item.end.astimezone(EWSTimeZone.timezone('Europe/Copenhagen')).strftime('%H:%M'), html2text.html2text(item.body), item.location)
             for subcalendar in item.categories:
                 try:
                     mattermostHook.send(eventContent, channel=subcalendar)
