@@ -43,3 +43,6 @@ The configuration is done in the calendarBotSettings.py file:
   * Python program which is used to check for upcoming events
 * calendarBotMattermostPlugin
   * Plugin used to create and display events manually in Mattermost 
+  
+## Example screenshot
+![Example screenshot](https://raw.githubusercontent.com/mharrend/matterbot-calendarBot/master/screenshot.png)
